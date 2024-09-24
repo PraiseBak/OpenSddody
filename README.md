@@ -2,6 +2,18 @@
 sddody 프로젝트의 코드 참조를 위한 레포지토리입니다
 ![ScreenRecording2024-09-24at2.26.33PM-ezgif.com-video-to-gif-converter.gif](..%2F..%2FDownloads%2FScreenRecording2024-09-24at2.26.33PM-ezgif.com-video-to-gif-converter.gif)
 
+# 사용 기술
+- Kotlin
+- Android Studio
+- SpringBoot
+  - JPA
+  - Security
+  - Aspect
+- AWS EC2
+- MySQL
+- Docker
+
+
 # 아키텍쳐
 ![img_3.png](img_3.png)
 # 초기 설계 다이어그램
@@ -40,6 +52,10 @@ sddody 프로젝트의 코드 참조를 위한 레포지토리입니다
 - 생성된 스터디에서 채팅가능
 - 그 외 멤버 추방 등 기능을 구현하였습니다.
 
+# 번외
+- 번외로 중복된 로그 코드를 줄이고자 Spring Aspect를 적용하였는데요, 이때 단순히 해당 프로그램에만
+사용하는 것이 아닌 다른 프로젝트에도 사용하면 편하겠다 싶어 로깅부분을 모듈화하였습니다   
+[참조] https://github.com/PraiseBak/TimeLog
 
 # 개선점
 - 리팩토링
